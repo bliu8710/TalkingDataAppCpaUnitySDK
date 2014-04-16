@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FF1C4479-FDAD-7F09-D1A9-F9B51685AB55}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\AppDriver\UnityPlugin\AppDriverProxy.cs" />
+     <Compile Include="Assets\Plugins\ExtenalAccount\91\The91AccountDelegate.cs" />
+     <Compile Include="Assets\Plugins\ExtenalAccount\BaseExtenalAccountDelegate.cs" />
+     <Compile Include="Assets\Plugins\ExtenalAccount\Xiaomi\TheXiaomiAccountDelegate.cs" />
+     <Compile Include="Assets\Plugins\MiniJSON\MiniJSON.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\LanguageSelection.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButton.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonActivate.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonColor.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonKeyBinding.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonKeys.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonMessage.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonOffset.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonRotation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIButtonScale.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UICenterOnChild.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDragCamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDragObject.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDragPanelContents.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDraggableCamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIDraggablePanel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIForwardEvents.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIGrid.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIImageButton.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIPlayAnimation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIPlaySound.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIPlayTween.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIPopupList.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UISavedOption.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIScrollBar.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UISlider.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UISoundVolume.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UITable.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIToggle.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIToggledComponents.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIToggledObjects.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Interaction\UIWidgetContainer.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\ActiveAnimation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\AnimationOrTween.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\BMFont.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\BMGlyph.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\BMSymbol.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\BetterList.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\ByteReader.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\EventDelegate.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\Localization.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\NGUIDebug.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\NGUIMath.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\NGUIText.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\NGUITools.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\RealTime.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\SpringPanel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\UIDrawCall.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\UIEventListener.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\UIGeometry.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Internal\UIWidget.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\AnimatedAlpha.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\AnimatedColor.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\SpringPosition.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenAlpha.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenColor.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenFOV.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenHeight.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenOrthoSize.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenPosition.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenRotation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenScale.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenTransform.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenVolume.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\TweenWidth.cs" />
+     <Compile Include="Assets\Plugins\NGUI\Tweening\UITweener.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIAnchor.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIAtlas.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UICamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIFont.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIInput.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UILabel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UILocalize.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIOrthoCamera.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIPanel.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIRoot.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UISprite.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UISpriteAnimation.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UISpriteData.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIStretch.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UITextList.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UITexture.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UITooltip.cs" />
+     <Compile Include="Assets\Plugins\NGUI\UI\UIViewport.cs" />
+     <Compile Include="Assets\Plugins\SimpleJSON\SimpleJSON.cs" />
+     <Compile Include="Assets\Plugins\StoreKit\StoreKitBinding.cs" />
+     <Compile Include="Assets\Plugins\StoreKit\StoreKitDownload.cs" />
+     <Compile Include="Assets\Plugins\StoreKit\StoreKitManager.cs" />
+     <Compile Include="Assets\Plugins\StoreKit\StoreKitProduct.cs" />
+     <Compile Include="Assets\Plugins\StoreKit\StoreKitTransaction.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\AsyncCallback.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\HttpParameter.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\OAuth.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\Request.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\RequestTask.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\Response.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\ResponseResult.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\UrlDecoder.cs" />
+     <Compile Include="Assets\Plugins\UniShare\Http\Utility.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\DataReaderProvider.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\DataWriterProvider.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\EcmaScriptIdentifier.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\EcmaScriptWriter.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\IDataReader.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\IDataWriter.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\IJsonSerializable.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonConvert.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonDataReader.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonDataWriter.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonNameAttribute.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonReader.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonReaderSettings.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonSerializationException.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonSpecifiedPropertyAttribute.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonToken.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonWriter.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\JsonWriterSettings.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\XmlDataReader.cs" />
+     <Compile Include="Assets\Plugins\UniShare\JsonFx\XmlDataWriter.cs" />
+     <Compile Include="Assets\Plugins\UniShare\OauthWebView.cs" />
+     <Compile Include="Assets\Plugins\UniShare\OpenPlatforms\Facebook\Facebook.cs" />
+     <Compile Include="Assets\Plugins\UniShare\OpenPlatforms\OpenPlatformBase.cs" />
+     <Compile Include="Assets\Plugins\UniShare\OpenPlatforms\SinaWeibo\SinaWeibo.cs" />
+     <Compile Include="Assets\Plugins\UniWebViewPluginAndroid.cs" />
+     <Compile Include="Assets\Plugins\UniWebViewPluginMacEditor.cs" />
+     <Compile Include="Assets\Plugins\UniWebViewPluginiOS.cs" />
+     <Compile Include="Assets\Plugins\iOS\AlertDialog\Scripts\AlertDialogManager.cs" />
+     <Compile Include="Assets\Plugins\iOS\Dianru\Scripts\DianruManager.cs" />
+     <Compile Include="Assets\Plugins\iOS\Domob\Scripts\DomobManager.cs" />
+     <Compile Include="Assets\Plugins\iOS\Immob\Scripts\ImmobManager.cs" />
+     <Compile Include="Assets\Plugins\iOS\MoreGame\Scripts\MoreGameManager.cs" />
+     <Compile Include="Assets\Plugins\iOS\Society\Scripts\SocietyManager.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\NetworkCallbackService.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\AuthenticateCallbackData.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\BaseSocketConnection.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\BaseSocketConnectionCreator.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\BaseSocketConnectionHost.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\BufferUtils.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\ClientSocketConnection.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\ConnectionEventArgs.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\CryptUtils.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\ExceptionEventArgs.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\MessageBuffer.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\MessageEventArgs.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\SocketClient.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\SocketClientSync.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\SocketConnector.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\SocketsExTypes.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx.NetEx\SocketsEx\WriteData.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx\BaseDisposable.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx\RuntTimeEx\InteropServicesEx\MarshalEx.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx\ServiceModel\Channels\BufferManager.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MihoyoNetwork\ZYZ.SystemEx\ThreadingEx\ThreadEx.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\MultiDim.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\ParseUID2EncodedID.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\RSA.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\SuperDebug.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\TalkingDataPlugin\TalkingDataAppCpaPlugin.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\TalkingDataPlugin\TalkingDataPlugin.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\TypeDictionary.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\UniWebView\Script\Helper\UniWebViewHelper.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\UniWebView\Script\UniWebView.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\UniWebView\Script\UniWebViewEdgeInsets.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\UniWebView\Script\UniWebViewMessage.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\WeaponTails\WeaponTrail.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\mt19937.cs" />
+     <None Include="Assets\Plugins\Android\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\alipay.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\dialog_button_submit.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\refresh_button.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values-v11\styles.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\dialog_alert.xml" />
+     <None Include="Assets\Plugins\Android\res\menu\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\alipay_title.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_main.xml" />
+     <None Include="Assets\Plugins\Android\res\drawable\dialog_button_colorlist.xml" />
+     <None Include="Assets\Plugins\Android\res\values\colorlist.xml" />
+ <Reference Include="P31RestKit">
+ <HintPath>Assets\Plugins\P31RestKit.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>Assets\Plugins\UniShare\ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
